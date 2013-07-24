@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD3BE3EF179E578C005A0739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3BE3EE179E578C005A0739 /* UIKit.framework */; };
+		BD3BE3F1179E578C005A0739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3BE3F0179E578C005A0739 /* Foundation.framework */; };
+		BD3BE3F3179E578C005A0739 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3BE3F2179E578C005A0739 /* CoreGraphics.framework */; };
+		BD3BE3F9179E578C005A0739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE3F7179E578C005A0739 /* InfoPlist.strings */; };
+		BD3BE3FB179E578C005A0739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE3FA179E578C005A0739 /* main.m */; };
+		BD3BE3FF179E578C005A0739 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE3FE179E578C005A0739 /* AppDelegate.m */; };
+		BD3BE401179E578C005A0739 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE400179E578C005A0739 /* Default.png */; };
+		BD3BE403179E578C005A0739 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE402179E578C005A0739 /* Default@2x.png */; };
+		BD3BE405179E578C005A0739 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE404179E578C005A0739 /* Default-568h@2x.png */; };
+		BD3BE408179E578C005A0739 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE407179E578C005A0739 /* ViewController.m */; };
+		BD3BE40B179E578C005A0739 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE409179E578C005A0739 /* ViewController.xib */; };
+		BD3BE414179E592D005A0739 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE412179E592D005A0739 /* HomeViewController.m */; };
+		BD3BE415179E592D005A0739 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE413179E592D005A0739 /* HomeViewController.xib */; };
+		BD3BE419179E59AD005A0739 /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE417179E59AD005A0739 /* AddNoteViewController.m */; };
+		BD3BE41A179E59AD005A0739 /* AddNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE418179E59AD005A0739 /* AddNoteViewController.xib */; };
+		BD3BE41E179E59C9005A0739 /* EditNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE41C179E59C9005A0739 /* EditNoteViewController.m */; };
+		BD3BE41F179E59C9005A0739 /* EditNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE41D179E59C9005A0739 /* EditNoteViewController.xib */; };
+		BD3BE427179E8295005A0739 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3BE426179E8295005A0739 /* libsqlite3.dylib */; };
+		BD3BE42B179E84D7005A0739 /* notesdb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BD3BE42A179E84D7005A0739 /* notesdb.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD3BE3EB179E578C005A0739 /* SQLiteSampleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteSampleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3BE3EE179E578C005A0739 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD3BE3F0179E578C005A0739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD3BE3F2179E578C005A0739 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD3BE3F6179E578C005A0739 /* SQLiteSampleDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteSampleDemo-Info.plist"; sourceTree = "<group>"; };
+		BD3BE3F8179E578C005A0739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD3BE3FA179E578C005A0739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD3BE3FC179E578C005A0739 /* SQLiteSampleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteSampleDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BD3BE3FD179E578C005A0739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD3BE3FE179E578C005A0739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD3BE400179E578C005A0739 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD3BE402179E578C005A0739 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD3BE404179E578C005A0739 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD3BE406179E578C005A0739 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD3BE407179E578C005A0739 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD3BE40A179E578C005A0739 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BD3BE411179E592D005A0739 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BD3BE412179E592D005A0739 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BD3BE413179E592D005A0739 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BD3BE416179E59AD005A0739 /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		BD3BE417179E59AD005A0739 /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		BD3BE418179E59AD005A0739 /* AddNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNoteViewController.xib; sourceTree = "<group>"; };
+		BD3BE41B179E59C9005A0739 /* EditNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteViewController.h; sourceTree = "<group>"; };
+		BD3BE41C179E59C9005A0739 /* EditNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteViewController.m; sourceTree = "<group>"; };
+		BD3BE41D179E59C9005A0739 /* EditNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditNoteViewController.xib; sourceTree = "<group>"; };
+		BD3BE426179E8295005A0739 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BD3BE42A179E84D7005A0739 /* notesdb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = notesdb.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3BE3E8179E578C005A0739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3BE427179E8295005A0739 /* libsqlite3.dylib in Frameworks */,
+				BD3BE3EF179E578C005A0739 /* UIKit.framework in Frameworks */,
+				BD3BE3F1179E578C005A0739 /* Foundation.framework in Frameworks */,
+				BD3BE3F3179E578C005A0739 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3BE3E2179E578C005A0739 = {
+			isa = PBXGroup;
+			children = (
+				BD3BE426179E8295005A0739 /* libsqlite3.dylib */,
+				BD3BE3F4179E578C005A0739 /* SQLiteSampleDemo */,
+				BD3BE3ED179E578C005A0739 /* Frameworks */,
+				BD3BE3EC179E578C005A0739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD3BE3EC179E578C005A0739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3BE3EB179E578C005A0739 /* SQLiteSampleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3BE3ED179E578C005A0739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3BE3EE179E578C005A0739 /* UIKit.framework */,
+				BD3BE3F0179E578C005A0739 /* Foundation.framework */,
+				BD3BE3F2179E578C005A0739 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD3BE3F4179E578C005A0739 /* SQLiteSampleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD3BE3FD179E578C005A0739 /* AppDelegate.h */,
+				BD3BE3FE179E578C005A0739 /* AppDelegate.m */,
+				BD3BE406179E578C005A0739 /* ViewController.h */,
+				BD3BE407179E578C005A0739 /* ViewController.m */,
+				BD3BE409179E578C005A0739 /* ViewController.xib */,
+				BD3BE411179E592D005A0739 /* HomeViewController.h */,
+				BD3BE412179E592D005A0739 /* HomeViewController.m */,
+				BD3BE413179E592D005A0739 /* HomeViewController.xib */,
+				BD3BE416179E59AD005A0739 /* AddNoteViewController.h */,
+				BD3BE417179E59AD005A0739 /* AddNoteViewController.m */,
+				BD3BE418179E59AD005A0739 /* AddNoteViewController.xib */,
+				BD3BE41B179E59C9005A0739 /* EditNoteViewController.h */,
+				BD3BE41C179E59C9005A0739 /* EditNoteViewController.m */,
+				BD3BE41D179E59C9005A0739 /* EditNoteViewController.xib */,
+				BD3BE3F5179E578C005A0739 /* Supporting Files */,
+			);
+			path = SQLiteSampleDemo;
+			sourceTree = "<group>";
+		};
+		BD3BE3F5179E578C005A0739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD3BE42A179E84D7005A0739 /* notesdb.sqlite */,
+				BD3BE3F6179E578C005A0739 /* SQLiteSampleDemo-Info.plist */,
+				BD3BE3F7179E578C005A0739 /* InfoPlist.strings */,
+				BD3BE3FA179E578C005A0739 /* main.m */,
+				BD3BE3FC179E578C005A0739 /* SQLiteSampleDemo-Prefix.pch */,
+				BD3BE400179E578C005A0739 /* Default.png */,
+				BD3BE402179E578C005A0739 /* Default@2x.png */,
+				BD3BE404179E578C005A0739 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD3BE3EA179E578C005A0739 /* SQLiteSampleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3BE40E179E578C005A0739 /* Build configuration list for PBXNativeTarget "SQLiteSampleDemo" */;
+			buildPhases = (
+				BD3BE3E7179E578C005A0739 /* Sources */,
+				BD3BE3E8179E578C005A0739 /* Frameworks */,
+				BD3BE3E9179E578C005A0739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteSampleDemo;
+			productName = SQLiteSampleDemo;
+			productReference = BD3BE3EB179E578C005A0739 /* SQLiteSampleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3BE3E3179E578C005A0739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sudhir Chavan";
+			};
+			buildConfigurationList = BD3BE3E6179E578C005A0739 /* Build configuration list for PBXProject "SQLiteSampleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD3BE3E2179E578C005A0739;
+			productRefGroup = BD3BE3EC179E578C005A0739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD3BE3EA179E578C005A0739 /* SQLiteSampleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD3BE3E9179E578C005A0739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3BE3F9179E578C005A0739 /* InfoPlist.strings in Resources */,
+				BD3BE401179E578C005A0739 /* Default.png in Resources */,
+				BD3BE403179E578C005A0739 /* Default@2x.png in Resources */,
+				BD3BE405179E578C005A0739 /* Default-568h@2x.png in Resources */,
+				BD3BE40B179E578C005A0739 /* ViewController.xib in Resources */,
+				BD3BE415179E592D005A0739 /* HomeViewController.xib in Resources */,
+				BD3BE41A179E59AD005A0739 /* AddNoteViewController.xib in Resources */,
+				BD3BE41F179E59C9005A0739 /* EditNoteViewController.xib in Resources */,
+				BD3BE42B179E84D7005A0739 /* notesdb.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3BE3E7179E578C005A0739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3BE3FB179E578C005A0739 /* main.m in Sources */,
+				BD3BE3FF179E578C005A0739 /* AppDelegate.m in Sources */,
+				BD3BE408179E578C005A0739 /* ViewController.m in Sources */,
+				BD3BE414179E592D005A0739 /* HomeViewController.m in Sources */,
+				BD3BE419179E59AD005A0739 /* AddNoteViewController.m in Sources */,
+				BD3BE41E179E59C9005A0739 /* EditNoteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD3BE3F7179E578C005A0739 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3BE3F8179E578C005A0739 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD3BE409179E578C005A0739 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3BE40A179E578C005A0739 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD3BE40C179E578C005A0739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD3BE40D179E578C005A0739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3BE40F179E578C005A0739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteSampleDemo/SQLiteSampleDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteSampleDemo/SQLiteSampleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD3BE410179E578C005A0739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteSampleDemo/SQLiteSampleDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteSampleDemo/SQLiteSampleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3BE3E6179E578C005A0739 /* Build configuration list for PBXProject "SQLiteSampleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3BE40C179E578C005A0739 /* Debug */,
+				BD3BE40D179E578C005A0739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3BE40E179E578C005A0739 /* Build configuration list for PBXNativeTarget "SQLiteSampleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3BE40F179E578C005A0739 /* Debug */,
+				BD3BE410179E578C005A0739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3BE3E3179E578C005A0739 /* Project object */;
+}
